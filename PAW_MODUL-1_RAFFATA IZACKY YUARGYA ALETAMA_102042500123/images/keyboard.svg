@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360">
+<rect width="500" height="360" fill="#ededeb"/>
+<rect x="48" y="105" width="404" height="150" rx="20" fill="#202020"/>
+<g fill="#deded9">
+<rect x="70" y="125" width="42" height="25" rx="4"/><rect x="120" y="125" width="42" height="25" rx="4"/><rect x="170" y="125" width="42" height="25" rx="4"/><rect x="220" y="125" width="42" height="25" rx="4"/><rect x="270" y="125" width="42" height="25" rx="4"/><rect x="320" y="125" width="42" height="25" rx="4"/><rect x="370" y="125" width="42" height="25" rx="4"/>
+<rect x="70" y="158" width="55" height="25" rx="4"/><rect x="133" y="158" width="42" height="25" rx="4"/><rect x="183" y="158" width="42" height="25" rx="4"/><rect x="233" y="158" width="42" height="25" rx="4"/><rect x="283" y="158" width="42" height="25" rx="4"/><rect x="333" y="158" width="79" height="25" rx="4"/>
+<rect x="70" y="191" width="65" height="25" rx="4"/><rect x="143" y="191" width="42" height="25" rx="4"/><rect x="193" y="191" width="42" height="25" rx="4"/><rect x="243" y="191" width="125" height="25" rx="4"/><rect x="376" y="191" width="36" height="25" rx="4"/>
+</g></svg>
