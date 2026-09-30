@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360">
-<rect width="500" height="360" fill="#ededeb"/>
-<rect x="95" y="45" width="310" height="205" rx="14" fill="#202020"/>
-<rect x="112" y="62" width="276" height="171" rx="8" fill="#d1d1cc"/>
-<path d="M62 273h376l-38 48H100z" fill="#202020"/>
-<rect x="205" y="286" width="90" height="8" rx="4" fill="#555"/>
-</svg>
