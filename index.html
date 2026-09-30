@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raffata — Sistem Informasi</title>
+<link rel="icon" href="images/VBG.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <span class="topbar__mark">Dex</span>
+  <span class="topbar__clock" id="clock"></span>
+</header>
+
+<main class="wrap">
+
+  <section class="identity">
+    <div class="identity__photo">
+      <img src="images/VBG.png" alt="Foto profil Raffata">
+    </div>
+
+    <div class="identity__text">
+      <h1>Raffata Izacky Yuargya Aletama</h1>
+      <p class="identity__role">Student </p>
+
+      <dl class="meta">
+        <div class="meta__row">
+          <dt>NIM</dt>
+          <dd>102042500123</dd>
+        </div>
+        <div class="meta__row">
+          <dt>Program Studi</dt>
+          <dd>S1 Sistem Informasi</dd>
+        </div>
+        <div class="meta__row">
+          <dt>Kampus</dt>
+          <dd>Telkom University Jakarta</dd>
+        </div>
+      </dl>
+
+      <nav class="social" aria-label="Tautan sosial">
+        <a href="https://github.com/Dex-toxicabyss" target="_blank" rel="noopener">Github</a>
+        <span class="social__sep">/</span>
+        <a href="https://www.linkedin.com/in/raffata-izacky-yuargya-aletama-248535388/" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Tentang</h2>
+    <p>Kuliah Sistem Informasi di Telkom University Jakarta , Fokus belajar sekarang: manajemen produk, keamanan siber, dan pengembangan software.</p>
+  </section>
+
+  
+
+  <footer class="foot">
+    <p>Halaman ini dibuat untuk Studi Kasus 1 — Pengembangan Aplikasi Web, Week 2.</p>
+    <p id="today"></p>
+  </footer>
+
+</main>
+
+<script>
+  function updateClock() {
+    var now = new Date();
+    var opts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var tanggal = now.toLocaleDateString('id-ID', opts);
+    var jam = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+    document.getElementById('clock').textContent = jam ;
+    document.getElementById('today').textContent = tanggal;
+  }
+  updateClock();
+  setInterval(updateClock, 1000 * 30);
+</script>
+
+</body>
+</html>
