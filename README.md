@@ -48,3 +48,26 @@ php -S localhost:8000 -t .
 ## Learning goal
 
 The repository is intentionally simple. Each exercise is meant to make one PHP concept easy to inspect before combining concepts into a larger web application.
+## Learning outcomes
+
+This repository shows the progression from isolated PHP syntax exercises to a small static web page. The exercises are intentionally separated so each concept can be inspected and tested independently.
+
+### Practice checklist
+
+- [x] Variables, values, and constants
+- [x] Arrays and iteration
+- [x] Conditional statements
+- [x] PHP embedded in HTML
+- [x] Basic static page styling
+
+### Validation
+
+Each PHP file can be opened through the local PHP server. The static page can be checked directly in a browser through the `personal-web/` path.
+
+## Limitations
+
+This is a learning repository rather than a deployable web product. It has no database, routing framework, authentication, automated test suite, or production deployment configuration.
+
+## Usage policy
+
+No open-source license is included. This repository is published for portfolio and academic reference; reuse should be requested from the author.
